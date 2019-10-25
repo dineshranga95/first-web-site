@@ -1,0 +1,177 @@
+
+  body{
+    background:grey ;
+  }
+  
+  
+  #wrapper{
+    width:45%;
+    background: url("img/rose.png") center  no-repeat;
+    margin:auto;
+    margin-top:50px;
+    border: 10px solid blue;
+margin-bottom: 50px;
+
+    text-align: justify;
+
+  }
+  #wrapper p{
+text-indent: 20px;
+padding: 0 20px;
+margin-top: 0;
+
+  }
+  #wrapper:hover{
+    background: pink ;
+    border:10px groove blue;
+  }
+  #header{
+    height:120px;
+    background:lightblue url("img/header.jpg") top left  no-repeat ;
+     padding-left:100px;
+     color:red;
+     border:1px solid red;
+      }
+      #header img{
+        border: 2px solid purple;
+        height: 75px;
+      }
+      #header:hover{
+        background:red;
+        color :black;
+      }
+      h1{
+        padding-top: 40px;
+       padding-bottom: 0px;
+       margin:0px;
+       
+      }
+      h2{
+         padding-top: 0px;
+         margin:0px;
+         
+      }
+      #header img{
+        width:100px;
+        float:right;
+        margin:25px 40px 0;
+
+      }
+      ul{
+        list-style-type:none;
+margin: 0px;
+padding-left:3px;
+background: yellow;
+
+      }
+      ul li{
+display: inline;
+font-size: 20px;
+border:2px solid black;
+background:lightgreen;
+padding:0 44px;
+
+      }
+       ul li:hover{
+        background: yellow;
+               }
+               ul li:active{
+        background: blue;
+               }
+      ul li a{
+        text-decoration:none;
+
+      }
+      #p01{
+margin:10px ;
+      }
+     
+     #p01 img{
+        float:left;
+        width:60%;
+        height:auto;
+      margin-top:5px;
+margin-right:10px;
+margin-bottom:10px;
+border:2px solid purple;
+opacity: 0;
+
+      }
+      #wrapper:hover #p01 img{
+        opacity:1;
+      }
+      img:hover{
+        border:5px dotted red;
+opacity:0.6;
+
+      }
+    p.error{
+      width:40%;
+      float:left;
+      
+      margin:5px;
+    margin-bottom: 20px;
+
+
+    
+    }
+    p.error:hover{
+  background: url("img/12.png") center no-repeat;
+    }
+    #about{
+      text-align: center;
+margin-bottom: 10px;
+    }
+     #about:hover{
+      font-style: italic;
+      color:blue;
+     }
+
+    #h01{
+      text-align: center;
+padding: 10px;
+padding-bottom: 10px;
+    }
+    #h01:hover{
+      font-style: italic;
+      color:blue;
+    }
+    #footer{
+      clear:left;
+      
+      margin:0 ;
+      height:75px;
+      padding-top: 25px;
+      padding-left:50px;
+      padding-right:50px;
+
+}
+#footer:hover{
+  background: red;
+}
+
+
+form{
+ 
+padding:0 20px;
+
+}
+
+#f{
+   float:right;
+   color:red;
+   background: black;
+   padding:10px 15px;
+}
+ #a{
+
+  text-decoration: none;
+  font-size: 35px;
+  color: red;
+  padding: 0 20px;
+
+}
+#a:hover{
+  border: 2px solid black;
+  background: green;
+}

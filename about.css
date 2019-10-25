@@ -1,0 +1,168 @@
+body{
+    background:grey ;
+  }
+  
+  
+  #wrapper{
+    width:45%;
+    background: url("img/rose.png") center  no-repeat;
+    margin:auto;
+    margin-top:50px;
+    border: 10px solid blue;
+margin-bottom: 50px;
+text-align: center;
+    text-align: justify;
+
+
+  }
+  
+  
+  #wrapper:hover{
+    background: pink ;
+    border:10px groove blue;
+  }
+  #header{
+    height:120px;
+    background:lightblue url("img/header.jpg") top left  no-repeat ;
+     padding-left:100px;
+     color:red;
+     border:1px solid red;
+      }
+      #header:hover{
+        background:red;
+        color:black;
+      }
+     #header h1{
+        padding-top: 40px;
+       padding-bottom: 0px;
+       margin:0px;
+       
+      }
+      h2{
+         padding-top: 0px;
+         margin:0px;
+         
+      }
+      #header img{
+        width:100px;
+        float:right;
+        margin:25px 40px 0;
+        border: 2px solid purple;
+      }
+      ul{
+        list-style-type:none;
+margin: 0px;
+padding-left:3px;
+background: yellow;
+
+      }
+      ul li{
+display: inline;
+font-size: 20px;
+border:2px solid black;
+background:lightgreen;
+padding:0 44px;
+   
+}
+      #header img:hover{
+        border: 5px dotted red;
+        opacity: 0.4;
+      }
+      
+       ul li:hover{
+        background: yellow;
+               }
+               ul li:active{
+        background: blue;
+               }
+      ul li a{
+        text-decoration:none;
+    }
+#h01{
+  text-align: center;
+margin-top: 10px;
+}
+#p1{
+  padding: 0 10px;
+  text-indent: 20px;
+}
+.img{
+  width:30%;
+  float: left;
+  margin:8px;
+  border: 1px solid black;
+margin-bottom: 30px;
+}
+.img img{
+  width: 100%;
+  height: 150px;
+
+}
+.des{
+  padding:0 10px;
+  margin-top: 0;
+
+}
+#wrapper:hover .img img {
+  opacity: 1;
+}
+.img:hover{
+  border-bottom: 4px groove red;
+  color:purple;
+}
+.img img{
+  opacity:0.2;
+}
+.des:hover{
+  background: grey;
+}
+#par{
+  margin:10px;
+  text-indent: 20px;
+clear: left;
+
+}
+#par img{
+  width: 45%;
+  float: right;
+  height: 250px;
+  margin-left: 10px;
+  opacity: 0;
+} 
+#wrapper:hover #par img{
+opacity: 1;
+border: 5px groove red;
+}
+
+#par p{
+  padding: 0 10px;
+  margin-right: 45%;
+  
+}
+#footer{
+  clear: right;
+  
+  text-align: center;
+padding:5px;
+}
+#footer a{
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0 25px;
+
+}
+#footer a:hover{
+  color:red;
+border: 2px groove black;
+  background: green;
+  
+}
+#footer:hover{
+  background: yellow;
+  border: 3px groove red;
+
+}
+#h01:hover{
+  font-style: italic;
+  color:blue;
+}
